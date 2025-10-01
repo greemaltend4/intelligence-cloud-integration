@@ -5,10 +5,10 @@ const app = express();
 dotenv.config();
 
 app.get('/', (req, res) => {
-  res.send('Bienvenue dans l\'Intelligence Cloud Integration!');
+  res.send('Welcome to Cloud Integration Intelligence!');
 });
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`Serveur en cours d\'exécution sur le port ${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
